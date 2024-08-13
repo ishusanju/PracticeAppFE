@@ -1,0 +1,92 @@
+.loginContainer {
+  width: 300px;
+  height: 350px;
+  background-color: rgba(194, 117, 182, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border-width: 5px;
+  border-color: rgb(199, 79, 135);
+  border-width: 1.2px;
+  border-style: solid;
+}
+.login-Form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h3 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin-top: 30px;
+  font-family: Poppins;
+}
+.contents {
+  height: 60px;
+}
+.name,
+.password {
+  width: 100%;
+}
+#inputs {
+  width: 250px;
+  height: 30px;
+  font-size: 15px;
+  color: white;
+  border-radius: 50px;
+  border-color: rgb(199, 79, 135);
+  border-width: 2px;
+  border-style: solid;
+  background-color: transparent;
+  position: fixed;
+}
+
+#inputs::placeholder {
+  font-size: 15px;
+  color: white;
+  opacity: 0.8;
+}
+.options {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.rememberMe {
+  color: white;
+  left: 20px;
+  position: absolute;
+}
+.forgotpswd {
+  color: white;
+  right: 20px;
+  position: absolute;
+}
+.login-btn {
+  width: 200px;
+  height: 37px;
+  font-size: 15px;
+  margin-left: 50px;
+  border-radius: 50px;
+  border-color: rgb(199, 79, 135);
+  border-width: 2px;
+  border-style: solid;
+  background-color: white;
+  font-style: Poppins;
+}
+.register {
+  color: white;
+  font-style: Poppins;
+  display: flex;
+  justify-content: center;
+  font-style: bold;
+}
+.person,
+.lock {
+  color: white;
+  position: absolute;
+  right: 20px;
+  margin-top: 5px;
+  opacity: 0.8;
+}

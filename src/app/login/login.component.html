@@ -1,0 +1,46 @@
+<div class="loginContainer">
+  <form [formGroup]="loginForm" class="login-Form">
+    <h3 class="login">Login</h3>
+
+    <div class="contents">
+      <mat-form-field class="name">
+        <input
+          id="inputs"
+          formControlName="Name"
+          type="text"
+          placeholder="Name"
+        />
+        <mat-icon class="person" matSuffice>person</mat-icon>
+      </mat-form-field>
+    </div>
+
+    <div>
+      <mat-form-field class="password">
+        <input
+          id="inputs"
+          class="password"
+          formControlName="Password"
+          type="password"
+          placeholder="Password"
+        />
+        <mat-icon class="lock" matSuffice>lock</mat-icon>
+      </mat-form-field>
+    </div>
+
+    <div class="options">
+      <div class="rememberMe">
+        <input formControlName="RememberME" type="checkbox" />
+        <label onclick="">RememberME</label>
+      </div>
+      <div class="forgotpswd">
+        <label onclick="">Forgot Password</label>
+      </div>
+    </div>
+    <div>
+      <button class="login-btn">Login</button>
+    </div>
+    <div class="register">
+      <label>Don't have an account?<span onclick="">Register</span> </label>
+    </div>
+  </form>
+</div>
